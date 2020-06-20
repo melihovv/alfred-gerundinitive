@@ -1,0 +1,35 @@
+{
+  "name": "alfred-gerundinitive",
+  "version": "1.0.0",
+  "description": "Alfred workflow to help what to use - gerund or infinitive",
+  "main": "src/index.js",
+  "dependencies": {
+    "alfy": "^0.9.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.0",
+    "ava": "^3.5.2"
+  },
+  "scripts": {
+    "test": "ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melihovv/alfred-gerundinitive"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "gerund",
+    "infinitive",
+    "verbs"
+  ],
+  "author": "Alexander Melihov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melihovv/alfred-gerundinitive/issues"
+  },
+  "homepage": "https://github.com/melihovv/alfred-gerundinitive#readme"
+}
