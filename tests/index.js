@@ -49,7 +49,7 @@ test('It shows what might be used after given verb', async t => {
 test('It does not show anything for verb, which has no rules', async t => {
   const alfy = alfyTest();
 
-  const result = await alfy('bear');
+  const result = await alfy('make');
 
   t.deepEqual(result, []);
 });
