@@ -4,11 +4,11 @@
   "description": "Alfred workflow to help what to use - gerund or infinitive",
   "main": "src/index.js",
   "dependencies": {
-    "alfy": "^0.10.0"
+    "alfy": "^1.1.0"
   },
   "devDependencies": {
     "alfy-test": "^0.4.0",
-    "ava": "^3.5.2"
+    "ava": "^5.2.0"
   },
   "scripts": {
     "test": "ava",
